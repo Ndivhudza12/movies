@@ -34,7 +34,6 @@ const Details: React.FC = () => {
 
     return (
         <Container>
-
             {singleMovie ? <><br></br>
                 <Row xs={1} md={1} xl={1} className="g-4">
                     <h4 className={styles.movieDetails} >

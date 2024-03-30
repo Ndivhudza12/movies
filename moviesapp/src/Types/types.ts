@@ -55,5 +55,5 @@ export const initialState: MoviesState = {
     singleMovie: null,
     loading: false,
     errors: null,
-    searchTerm: "cars"
+    searchTerm: ""
 }

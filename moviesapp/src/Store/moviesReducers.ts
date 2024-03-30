@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IMovie, initialState } from "./types";
+import { IMovie, initialState } from "../Types/types";
 import { getMovies, getMovieDetailsById } from "./actions";
 
 // reducers -> reduce to a specific state -> changes state

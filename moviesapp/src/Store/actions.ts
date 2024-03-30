@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { IMovie, IMovieDetails } from "./types";
+import { IMovie, IMovieDetails } from "../Types/types";
 
 // actions are processes that get data from backend
 export const getMovies = createAsyncThunk<IMovie[], string>(
