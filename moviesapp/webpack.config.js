@@ -12,6 +12,10 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
         test: /\.(png|svg|jpg)$/,
         use: ['file-loader'],
       },
@@ -35,7 +39,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     // Note: comment below line to run desktop app
-    publicPath: '/',
+    //publicPath: '/',
   },
   plugins: [
     new HtmlWebpackPlugin({

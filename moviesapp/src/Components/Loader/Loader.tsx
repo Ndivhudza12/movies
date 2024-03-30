@@ -1,6 +1,7 @@
 import { Spinner } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import styles from './Loading.module.scss';
+import React from 'react';
 
 const Loader: React.FC = () => {
     return (
