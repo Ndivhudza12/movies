@@ -41,7 +41,7 @@ export interface IMovieDetails {
     };
 }
 
-interface MoviesState {
+export interface MoviesState {
     movies: IMovie[] | null;
     loading: boolean;
     singleMovie: IMovieDetails | null;
