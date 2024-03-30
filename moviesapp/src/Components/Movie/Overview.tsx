@@ -1,5 +1,5 @@
 import React from 'react';
-import { IMovieDetails } from '../types';
+import { IMovieDetails } from '../../Types/types';
 import styles from './Movie.module.scss';
 
 interface MovieDetailsProps {
