@@ -39,7 +39,6 @@ export interface IMovieDetails {
             worstRating: number;
         };
     };
-
 }
 
 interface MoviesState {
