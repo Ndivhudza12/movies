@@ -38,12 +38,12 @@ const Details: React.FC = () => {
             {singleMovie ? <><br></br>
                 <Row xs={1} md={1} xl={1} className="g-4">
                     <h4 className={styles.movieDetails} >
-                        <ArrowLeft color="royalblue" size={50} className={styles.backBtn} onClick={() => navigate('/')} />
+                        <ArrowLeft color="white" size={50} className={styles.backBtn} onClick={() => navigate('/')} />
                         {singleMovie?.title}
                     </h4>
                 </Row>
                 <Row xs={2} md={2} xl={2} className="g-4">
-                    <Col style={{ overflow: "hidden" }} >
+                    <Col>
                         <div className={styles.tabsContainer}>
                             <img src={singleMovie?.image} alt={singleMovie?.title} className={styles.moviePoster} /></div>
                     </Col>
