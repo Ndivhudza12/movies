@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import { IMovieDetails } from '../types';
+import { IMovieDetails } from '../../Types/types';
 import styles from './Movie.module.scss';
 
 interface MovieDetailsProps {
